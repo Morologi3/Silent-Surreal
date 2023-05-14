@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6f703f47ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./ISN-styles.css">
+    <title>IS Documentation</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="topnav">
+        <img src="./images/logo.png">
+        <ul>
+            <li><header>Information Security Documentation</header></li>
+        </ul>
+    </div>
+    <nav id="navbar">
+        <!--<header><img src="./Assets/logo.png"></header>-->
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Basics">Basics</a>
+        <a class="nav-link" href="#Protection_Mechanisms">Protection Mechanisms</a>
+        <a class="nav-link" id="crypto" href="#Cryptography">Cryptography</a>
+        <a class="nav-link" href="#Network_Security">Network Security</a>
+    </nav>
+
+     <!-- Main -->
+     <main id="main-doc">
+        <!-- Section 1: Introduction -->
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Information security is a term that describes protecting sensitive informations from unauthorized
+                accesses, modifications, and disruptions.
+                It covers many concepts from policies and laws to cryptography and cybersecurity processes.
+            </p>
+
+            <p>
+                Information security contains many details in many sections.
+            </p>
+            <ul>
+                <li>Firstly, we have the theory concepts in information security like risk management, governance, and
+                    policies.</li>
+                <li>Also, we have the technical part of information security such as cryptography, and sniffing</li>
+            </ul>
+        </section>
+
+         <!-- Section 2: Basics  -->
+         <section class="main-section" id="Basics">
+            <header>Basics</header>
+            <p> The three basic terms in information security are the following: </p>
+            <ul>
+                <li><code>Confidentiality</code></li>
+                <li><code>Integrity</code></li>
+                <li><code>Availability</code></li>
+            </ul>
+            <p> Each one be as a category for classifying threats. Confidentiality is for the unauthorized access that is a person got a low level privilege and access a high sensitive file.</p>
+            <p>Integrity is protecting the files in the system of being modify by unauthorized access. And availability is the disruption of a file or make a system unavailable for the user to use.</p>
+        </section>
+
+    <!-- Section 3: Protection_Mechanisms  -->
+    <section class="main-section" id="Protection_Mechanisms">
+        <header>Protection Mechanisms</header>
+        <p> We have four mechanisms helps us to protect a system or a file or even just a word. They are used to enforce layers of trust between security levels of a system.</p>
+        <ol>
+            <li>Layering</li>
+            <li>Abstraction</li>
+            <li>Data hiding</li>
+            <li>Encryption</li>
+        </ol>
+
+        <p><code>Layering</code> is guarding something using multilayer solution or a solutions layer to protect it. So if one layer have fall then the rest will still guard the system. The second one is <code>Abstraction</code> that is used for efficiency. Similar elements are put into groups, classes, or roles that are assigned security controls, restrictions, or permissions as a collective. Thus, the concept of <code>abstraction</code> is used when classifying objects or assigning roles to subjects.
+        </p>
+        <p><code>Data hiding</code>  is exactly what it sounds like: preventing data from being discovered or
+            accessed by a subject by positioning the data in a logical storage compartment that is not
+            accessible or seen by the subject. Forms of data hiding include keeping a database from
+            being accessed by unauthorized visitors and restricting a subject at a lower classification
+            level from accessing data at a higher classification level. Preventing an application from
+            accessing hardware directly is also a form of data hiding. Data hiding is often a key element
+            in security controls as well as in programming.</p>
+        <p><code>Encryption</code> is the art and science of hiding the meaning or intent of a communication
+            from unintended recipients. Encryption can take many forms and be applied to every type
+            of electronic communication, including text, audio, and video files as well as applications
+            themselves. Encryption is an important element in security controls, especially in regard
+            to the transmission of data between systems </p>
+    </section>
+    
+    <!-- Section 4: Cryptography  -->
+    <section class="main-section" id="Cryptography">
+        <header>Cryptography</header>
+        <p>Cryptography provides confidentiality, integrity, authentication, and nonrepudiation for sensitive information while it
+            is stored (at rest), traveling across a network (in transit), and
+            existing in memory (in use). Cryptography is an extremely important security technology
+            that is embedded in many of the controls used to protect information from unauthorized
+            visibility and use.
+            Over the years, mathematicians and computer scientists have developed a series of
+            increasingly complex cryptographic algorithms designed to increase the level of protection provided to data. While cryptographers spent time developing strong encryption
+            algorithms, hackers and governments alike devoted significant resources to undermining
+            them. This led to an “arms race” in cryptography and resulted in the development of the
+            extremely sophisticated algorithms in use today.
+            This chapter looks at the history of cryptography, the basics of cryptographic communications, and the fundamental principles of private key cryptosystems. The next chapter
+            continues the discussion of cryptography by examining public key cryptosystems and the
+            various techniques attackers use to defeat cryptography.</p>
+
+        <p>Cryptography divides into two parts:</p>
+        <ul>
+            <li>Symmetric</li>
+            <li>Asymmetric</li>
+        </ul>
+        <p>Some of the <code>symmetric</code> cryptography algorithms are:</p>
+        <ul>
+            <li><code>DES</code></li>
+            <li><code>AES</code></li>
+            <li><code>Blowfish</code></li>
+        </ul>
+        <p>Some of the <code>asymmetric</code> cryptography algorithms are:</p>
+        <ul>
+            <li><code>RSA</code></li>
+            <li><code>El-Gamal</code></li>
+            <li><code>Elliptic curve</code></li>
+        </ul>
+    </section>
+
+    <!-- Section 5: Network Security  -->
+    <section class="main-section" id="Network_Security">
+        <header>Network Security</header>
+        <p>Computers and networks emerge from the integration of
+            communication devices, storage devices, processing devices,
+            security devices, input devices, output devices, operating
+            systems, software, services, data, and people. This chapter discusses the Open Systems
+            Interconnection <code>OSI</code> model as a guiding principle in networking, cabling, wireless connectivity, Transmission Control Protocol/Internet Protocol (TCP/IP) and related protocols,
+            networking devices, and firewalls</p>
+            
+        <p>We have two models for network communication protocol:</p>
+        <ul>
+            <li>OSI model</li>
+            <li>TCP/IP model</li>
+        </ul>
+
+        <p><code>OSI</code> model:</p>
+        <p>Communications between computers over networks are made possible by protocols. A
+            protocol is a set of rules and restrictions that define how data is transmitted over a network
+            medium (e.g., twisted-pair cable, wireless transmission). In the early days of network development, many companies had their own proprietary protocols, which meant interaction
+            between computers of different vendors was often difficult, if not impossible. In an effort
+            to eliminate this problem, the International Organization for Standardization (ISO) developed the Open Systems Interconnection (OSI) Reference Model for protocols in the early
+            1980s. Specifically, ISO 7498 defines the OSI Reference Model (more commonly called the
+            OSI model). Understanding the OSI model and how it relates to network design, deployment, and security is essential in preparing for the CISSP exam.</p>
+        
+            <p><code>TCP/IP</code> model:</p>
+            <p>The TCP/IP model (also called the DARPA or the DOD model) consists of only four layers, as opposed to the OSI Reference Model’s seven. The four layers of the TCP/IP model
+                are Application (also known as Process), Transport (also known as Host-to-Host), Internet
+                (sometimes Internetworking), and Link (although Network Interface and sometimes
+                Network Access are used). Figure 11.5 shows how they compare to the seven layers of the
+                OSI model. The TCP/IP protocol suite was developed before the OSI Reference Model was
+                created. The designers of the OSI Reference Model took care to ensure that the TCP/IP protocol suite fit their model because of its established deployment in networking.</p>
+
+    </section>
+    </main>
+
+    <div id="navFooter">
+        <a href="https://morologi3.github.io/Silent-Surreal/" target="_blank">
+            <i class="fa-solid fa-house"></i>
+          </a>
+        <a href="https://github.com/Morologi3" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://morologi3.github.io/SSSearch/" target="_blank">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <a href="https://baristacoder.hashnode.dev/" target="_blank">
+            <i class="fa-brands fa-hashnode"></i>
+        </a>
+        </div>
+</body>
+</html>
